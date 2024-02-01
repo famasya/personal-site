@@ -38,15 +38,13 @@ export default function Projects() {
     <h3 className="font-bold text-lg mt-8">Projects</h3>
     <p>Here are list of projects I've involved in</p>
 
-    <div className="grid auto-rows-fr grid-cols-3 gap-2">
+    <div className="grid auto-rows-fr grid-cols-2 lg:grid-cols-3 gap-2">
       {projects.map(project => <div className="no-underline text-black border hover:bg-gray-200 hover:border hover:border-gray-300 bg-gray-100 p-3 rounded-md" key={project.link}>
         <div className="flex flex-col justify-between">
-          <div className="">
-            <h3 className="text-base mb-2 showcase">
-              <a href={project.link} target="_blank" rel="noreferrer">{project.title}</a>
-            </h3>
-            <p className="text-xs text-left leading-4">{project.summary}. {project.code_url && <>[<a href={project.code_url} target="_blank" rel="noreferrer">code</a>]</>}</p>
-          </div>
+          <h3 className="text-base mb-2 showcase break-all">
+            <a href={project.link} target="_blank" rel="noreferrer">{project.title}</a>
+          </h3>
+          <p className="text-xs text-left leading-4">{project.summary}. {project.code_url && <>[<a href={project.code_url} target="_blank" rel="noreferrer">code</a>]</>}</p>
         </div>
       </div>)}
     </div>
