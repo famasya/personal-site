@@ -1,4 +1,4 @@
-import { MetaFunction } from "@remix-run/node";
+import { MetaFunction } from "@remix-run/cloudflare";
 import { Link } from "@remix-run/react";
 
 export const meta: MetaFunction = () => {
@@ -19,12 +19,12 @@ const projects = [{
 }, {
   title: 'Jatimbus Tracker',
   summary: 'East java bus tracker',
-  link: 'https://jatimbus.pages.dev',
+  link: 'https://jatimbus.abidf.com',
   code_url: 'https://github.com/famasya/jatim-bus-tracker'
 }, {
   title: 'Github trending API',
   summary: 'Github trending repositories as API',
-  link: 'https://github-trending-api.famasya.workers.dev',
+  link: 'https://github-trending.abidf.com',
   code_url: 'https://github.com/famasya/github-trending-api'
 }]
 

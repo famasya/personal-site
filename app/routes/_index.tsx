@@ -1,4 +1,4 @@
-import type { MetaFunction } from "@remix-run/node";
+import type { MetaFunction } from "@remix-run/cloudflare";
 import { Link } from "@remix-run/react";
 import avatar from "~/assets/avatar.png";
 import email from "~/assets/email.png";
