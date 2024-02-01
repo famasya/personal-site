@@ -42,6 +42,7 @@ export default function IndexPage() {
       </main>
       <div className="flex flex-row items-center gap-2 footer">
         <Link to="tech">Tech & Projects</Link>
+        <Link to="https://scholar.google.co.id/citations?user=JGNxsqcAAAAJ&hl=en" rel="noreferrer" target="_blank">Research</Link>
       </div>
     </div>
   );
