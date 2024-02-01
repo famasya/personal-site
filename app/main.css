@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+p {
+    @apply mb-4 leading-6 text-justify;
+}
+
+a {
+    @apply text-blue-600 underline underline-offset-2 decoration-2 decoration-blue-500;
+}
+
+.footer a {
+    @apply bg-blue-500 hover:no-underline text-white py-2 px-4 rounded mt-4;
+}
+
+.showcase a {
+    @apply text-black underline underline-offset-2 decoration-2 decoration-black;
+}
