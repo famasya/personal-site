@@ -1,6 +1,6 @@
 import type { MetaFunction } from "@remix-run/cloudflare";
 import { Link } from "@remix-run/react";
-import avatar from "~/assets/avatar.png";
+import avatar from "~/assets/avatar.webp";
 import email from "~/assets/email.png";
 
 export const meta: MetaFunction = () => {
