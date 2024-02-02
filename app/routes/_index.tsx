@@ -14,14 +14,14 @@ export default function IndexPage() {
   return (
     <div>
       <div className="flex flex-col md:flex-row items-center my-8">
-        <div className="flex-none w-28">
+        <div className="flex-none w-20 md:mr-8">
           <img
             src={avatar}
             alt="Avatar"
-            className="w-20 rounded-xl"
+            className="rounded-xl"
           />
         </div>
-        <div className="flex-initial text-center lg:text-left">
+        <div className="flex-initial text-center md:text-left">
           <h1 className="text-3xl font-bold">
             On a personal quest to <span className="underline leading-8 underline-offset-8 decoration-4 decoration-blue-500">
               improve the lives of living creatures

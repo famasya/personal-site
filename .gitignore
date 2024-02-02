@@ -6,3 +6,5 @@ node_modules
 .env
 
 functions
+.DS_Store
+.DS_Store?
