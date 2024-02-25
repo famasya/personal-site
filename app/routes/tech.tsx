@@ -33,7 +33,7 @@ export default function Projects() {
   return <>
     <h1 className="text-3xl font-bold mb-3">Tech</h1>
     <p>I have extensive experience with <strong>Typescript</strong>, <strong>Javascript</strong>, <strong>PHP</strong>, and <strong>Python</strong>, which have been the primary languages used throughout my professional career. Professionally, I have primarily worked with <strong>PostgreSQL</strong> databases, and co-led the development of data automation and ETL on top of it for internal use.</p>
-    <p>My graduate studies focused heavily on <strong>Python</strong>, <strong>Jupyter Notebook</strong> and data preprocessing tools like <strong>LabelStudio</strong> for NLP. Additionally, I conducted academic research on Transformer architectures like FlairNLP and SimpleTransformers, including scratch implementation in <strong>Pytorch</strong>.</p>
+    <p>My graduate studies focused heavily on <strong>Python</strong>, <strong>Jupyter Notebook</strong> and data preprocessing tools like <strong>LabelStudio</strong> for NLP. Additionally, I conducted academic research on Transformer architectures built on top of frameworks like FlairNLP and SimpleTransformers, including scratch implementation in <strong>Pytorch</strong>.</p>
 
     <h3 className="font-bold text-lg mt-8">Projects</h3>
     <p>Here are list of projects I've involved in</p>
