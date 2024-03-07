@@ -24,7 +24,7 @@ export default function IndexPage() {
         <div className="flex-initial text-center md:text-left">
           <h1 className="text-3xl font-bold">
             On a personal quest to <span className="underline leading-8 underline-offset-8 decoration-4 decoration-blue-500">
-              improve the lives of living creatures
+              improve the lives of living beings
             </span>
             .
           </h1>
