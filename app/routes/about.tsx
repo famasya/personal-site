@@ -22,7 +22,7 @@ export default function AboutPage() {
       I hold a Master's degree in Informatics from ITS Surabaya, Indonesia, which has equipped me with a strong theoretical foundation and practical skills in the field. Aligned with my personal mission, I pioneered the development of the first  <Link to='https://huggingface.co/abid/indonesia-bioner' target="_blank" rel="noreferrer">biomedical Named Entity Recognition in Bahasa Indonesia</Link> capable of recognizing biomedical entities in freetext. Additionally, I have conducted research on internet of underwater things and network security in the past.
     </p>
     <p>
-      When I'm not working, you can find me reading books, conquering casual games, or paving my path to becoming an aspiring farmer.
+      When I'm not working, you can find me reading books, conquering casual games, or paving my path to becoming a farmer.
     </p>
 
     <div className="mt-8"><Link to="/" className="bg-blue-500 hover:no-underline text-white py-2 px-4 rounded mt-4">Back home</Link></div>

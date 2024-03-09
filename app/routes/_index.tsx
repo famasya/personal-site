@@ -23,10 +23,7 @@ export default function IndexPage() {
         </div>
         <div className="flex-initial text-center md:text-left">
           <h1 className="text-3xl font-bold">
-            On a personal quest to <span className="underline leading-8 underline-offset-8 decoration-4 decoration-blue-500">
-              improve the lives of living beings
-            </span>
-            .
+            On a personal quest to improve the lives of living beings.
           </h1>
         </div>
       </div>
@@ -35,12 +32,11 @@ export default function IndexPage() {
           Hi there, I am Abid. Currently, I&apos;m leading the tech team at Trustmedis to empower healthcare providers to serve millions of patients better.
         </p>
         <p className="text-lg mb-4">
-          Reach me out on <Link to="https://twitter.com/famasya" rel="noreferrer" target="_blank">Twitter</Link>, <Link to="https://www.linkedin.com/in/abid-famasya" rel="noreferrer" target="_blank">Linkedin</Link>, or just drop me an email at <img src={email} alt="contact@abidf.dev" className="inline" />.
+          Reach me out on <Link to="https://twitter.com/famasya" rel="noreferrer" target="_blank">Twitter</Link>, <Link to="https://www.linkedin.com/in/abid-famasya" rel="noreferrer" target="_blank">Linkedin</Link>, or just drop me an email at <img src={email} alt="contact@abidf.dev" className="inline" />
         </p>
-        <p>...</p>
-        <p>Well, that's the short version. <Link to="about">Wants to know more?</Link></p>
       </main>
       <div className="flex flex-row items-center gap-2 footer">
+        <Link to="about">About [a bit longer]</Link>
         <Link to="tech">Tech & Projects</Link>
         <Link to="https://scholar.google.co.id/citations?user=JGNxsqcAAAAJ&hl=en" rel="noreferrer" target="_blank">Research</Link>
       </div>

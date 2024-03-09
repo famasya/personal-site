@@ -1,5 +1,5 @@
-import '@fontsource/source-sans-pro/400.css';
-import '@fontsource/source-sans-pro/600.css';
+import '@fontsource/inter/400.css';
+import '@fontsource/inter/600.css';
 import type { LinksFunction } from "@remix-run/cloudflare";
 import { cssBundleHref } from "@remix-run/css-bundle";
 import {

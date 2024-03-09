@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 p {
