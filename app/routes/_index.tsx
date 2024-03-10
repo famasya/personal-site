@@ -13,6 +13,11 @@ export const meta: MetaFunction = () => {
 export default function IndexPage() {
   return (
     <div>
+      <div className="flex flex-row items-center gap-2 footer">
+        <Link to="about">About [a bit longer]</Link>
+        <Link to="tech">Tech & Projects</Link>
+        <Link to="https://scholar.google.co.id/citations?user=JGNxsqcAAAAJ&hl=en" rel="noreferrer" target="_blank">Research</Link>
+      </div>
       <div className="flex flex-col md:flex-row items-center my-8">
         <div className="flex-none w-20 md:mr-8">
           <img
@@ -35,11 +40,6 @@ export default function IndexPage() {
           Reach me out on <Link to="https://twitter.com/famasya" rel="noreferrer" target="_blank">Twitter</Link>, <Link to="https://www.linkedin.com/in/abid-famasya" rel="noreferrer" target="_blank">Linkedin</Link>, or just drop me an email at <img src={email} alt="contact@abidf.dev" className="inline" />
         </p>
       </main>
-      <div className="flex flex-row items-center gap-2 footer">
-        <Link to="about">About [a bit longer]</Link>
-        <Link to="tech">Tech & Projects</Link>
-        <Link to="https://scholar.google.co.id/citations?user=JGNxsqcAAAAJ&hl=en" rel="noreferrer" target="_blank">Research</Link>
-      </div>
     </div>
   );
 }
