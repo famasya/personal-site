@@ -1,5 +1,6 @@
-import '@fontsource/inter/400.css';
-import '@fontsource/inter/600.css';
+import '@fontsource/fira-sans/400.css';
+import '@fontsource/fira-sans/600.css';
+import '@fontsource/pt-mono';
 import type { LinksFunction } from "@remix-run/cloudflare";
 import { cssBundleHref } from "@remix-run/css-bundle";
 import {

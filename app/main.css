@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 p {
@@ -20,4 +20,9 @@ a {
 
 .showcase a {
     @apply text-black underline underline-offset-2 decoration-2 decoration-black;
+}
+
+pre {
+    @apply bg-gray-700 rounded p-2 text-white text-sm;
+    font-family: 'PT Mono', monospace;
 }
