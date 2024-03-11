@@ -68,6 +68,8 @@ export default function IndexPage() {
           <Link to={`article/${article.uid}`} key={article.uid}>{article.data.title[0].text}</Link>
         ))}
       </article>
+      <div className="text-center text-gray-400 text-2xl mb-3">...</div>
+      <div className="text-center text-gray-400 text-sm mt-6">Built on <Link to="https://remix.run" target="_blank">Remix</Link>, <Link to="https://prismic.io" target="_blank" >Prismic</Link> and <Link to="https://pages.cloudflare.com/" target="_blank">Cloudflare Pages</Link></div>
     </div >
   );
 }
