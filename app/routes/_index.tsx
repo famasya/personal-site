@@ -65,7 +65,9 @@ export default function IndexPage() {
           (<Link to="/articles">archive</Link>)
         </h2>
         {articles && articles.map((article: any) => (
-          <Link to={`article/${article.uid}`} key={article.uid}>{article.data.title[0].text}</Link>
+          <div className="block mb-1" key={article.uid}>
+            <Link to={`article/${article.uid}`}>{article.data.title[0].text}</Link>
+          </div>
         ))}
       </article>
       <div className="text-center text-gray-400 text-2xl mb-3">...</div>
