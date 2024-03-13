@@ -32,8 +32,8 @@ export default function IndexPage() {
   return (
     <div>
       <div className="flex flex-row items-center gap-2 footer" >
-        <Link to="about" > About</Link>
-        <Link to="tech" > Tech & Projects </Link>
+        <Link to="about" prefetch="render"> About</Link>
+        <Link to="tech" prefetch="render"> Tech & Projects </Link>
         <Link to="https://scholar.google.co.id/citations?user=JGNxsqcAAAAJ&hl=en" rel="noreferrer" target="_blank" > Research </Link>
       </div>
       <div className="flex flex-col md:flex-row items-center my-8" >
@@ -62,11 +62,11 @@ export default function IndexPage() {
       <article>
         <h2 className="text-2xl font-bold mb-4">
           Last articles
-          (<Link to="/articles">archive</Link>)
+          (<Link to="/articles" prefetch="render">archives</Link>)
         </h2>
         {articles && articles.map((article: any) => (
           <div className="block mb-1" key={article.uid}>
-            <Link to={`article/${article.uid}`}>{article.data.title[0].text}</Link>
+            <Link to={`article/${article.uid}`} prefetch="render">{article.data.title[0].text}</Link>
           </div>
         ))}
       </article>

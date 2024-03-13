@@ -40,7 +40,7 @@ export default function Articles() {
 
     {articles.map((article: any) => <div className="block mb-1">
       <span className="text-gray-400">[{parsePublicationDate(article.first_publication_date)}] </span>
-      <Link to={`/article/${article.uid}`}>{article.data.title[0].text}</Link>
+      <Link to={`/article/${article.uid}`} prefetch="render">{article.data.title[0].text}</Link>
     </div>)}
 
     <div className="mt-6">
