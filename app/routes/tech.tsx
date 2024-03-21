@@ -11,11 +11,13 @@ export const meta: MetaFunction = () => {
 const projects = [{
   title: 'KawalCovid19',
   summary: 'Public-initiated Covid-19 tracker and information for Indonesia',
-  link: 'https://kawalcovid19.id'
+  link: 'https://kawalcovid19.id',
+  code_url: 'https://github.com/kawalcovid19'
 }, {
   title: 'WargaBantuWarga',
   summary: 'Information sharing platform during Covid19',
-  link: 'https://www.wargabantuwarga.com'
+  link: 'https://www.wargabantuwarga.com',
+  code_url: 'https://github.com/kawalcovid19/wargabantuwarga.com'
 }, {
   title: 'Jatimbus Tracker',
   summary: 'East java bus tracker',
@@ -26,6 +28,11 @@ const projects = [{
   summary: 'Github trending repositories as API',
   link: 'https://github-trending.abidf.com',
   code_url: 'https://github.com/famasya/github-trending-api'
+}, {
+  title: 'AyoBaca',
+  summary: 'Better reader for letsreadasia.org',
+  link: 'https://ayobaca.pages.dev',
+  code_url: 'https://github.com/famasya/ayobaca'
 }]
 
 
